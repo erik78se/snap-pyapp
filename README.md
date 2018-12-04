@@ -11,4 +11,5 @@ It showcases:
 # Building
 See [BUILDING.md](BUILDING.md)
 
-
+# Author
+[Erik Lönroth](http://eriklonroth.com)
