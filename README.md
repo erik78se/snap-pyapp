@@ -11,5 +11,8 @@ It showcases:
 # Building
 See [BUILDING.md](BUILDING.md)
 
+# Installing (from snapstore)
+ ```sudo snap install --edge pyapp  --devmode```
+
 # Author
 [Erik Lönroth](http://eriklonroth.com)
