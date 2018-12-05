@@ -10,6 +10,9 @@ C) Build service - Fancy
 
 ## A) Build in a docker (simplifies build setup)
 ```bash
+sudo apt install docker.io
+sudo adduser $USER docker
+newgrp docker 
 docker run -v $(pwd):/my-snap snapcore/snapcraft sh -c "apt update && cd /my-snap && snapcraft"
 ```
 
