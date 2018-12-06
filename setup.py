@@ -8,5 +8,5 @@ setup(
     author="Me",
     author_email="erik.lonroth@gmail.com",
     version="0.1",
-    scripts=['app.py']
+    scripts=['app.py'],
 )
