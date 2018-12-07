@@ -18,10 +18,10 @@ log.addHandler(handler)
 
 
 def syslogging():
-	log.debug('this is a debug syslog message')
-	log.critical('this is a critical syslog message')
+    log.debug('this is a debug syslog message')
+    log.critical('this is a critical syslog message')
 
 if __name__ == '__main__':
-	syslogging()
-        print("Hello there. I syslogged.")
+    syslogging()
+    print("Hello there. I syslogged.")
 
