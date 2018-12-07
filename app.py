@@ -17,10 +17,11 @@ handler.setFormatter(formatter)
 log.addHandler(handler)
 
 
-def hello():
-	log.debug('this is debug')
-	log.critical('this is critical')
+def syslogging():
+	log.debug('this is a debug syslog message')
+	log.critical('this is a critical syslog message')
 
 if __name__ == '__main__':
-	hello()
+	syslogging()
+        print("Hello there. I syslogged.")
 
